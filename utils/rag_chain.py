@@ -20,7 +20,7 @@ class RAGChain:
 
         self.vector_db = vector_db
         api_key = os.getenv("GOOGLE_API_KEY")
-        print("API key exists:", api_key is not None)
+        print("API key prefix:", api_key[:8] if api_key else "None")
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
             temperature=0.2,
