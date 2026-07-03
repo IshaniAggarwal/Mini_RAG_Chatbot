@@ -1,17 +1,10 @@
 # Mini RAG Chatbot
 
-![Python](https://img.shields.io/badge/Python-3.10+-blue)
-![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
-![LangChain](https://img.shields.io/badge/LangChain-RAG-success)
-![Google Gemini](https://img.shields.io/badge/LLM-Google%20Gemini-orange)
-![FAISS](https://img.shields.io/badge/VectorDB-FAISS-blueviolet)
-![ChromaDB](https://img.shields.io/badge/VectorDB-ChromaDB-purple)
-
 An interactive **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF documents and ask natural language questions about their content. The application retrieves the most relevant information using semantic search and generates context-aware answers with **Google Gemini**.
 
 ## Live Demo
 
-🔗 **Live Demo:** <https://mini-rag-chatbot.streamlit.app/>
+**Live Demo:** <https://mini-rag-chatbot.streamlit.app/>
 
 > **Note:** The application may take a few seconds to load if it has been inactive.
 
@@ -36,7 +29,7 @@ An interactive **Retrieval-Augmented Generation (RAG)** application that enables
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|------------|
@@ -222,12 +215,12 @@ streamlit run app.py
 
 ---
 
-## 👩‍💻 Author
+## Author
 
 **Ishani Aggarwal**
 
-- 💼 **LinkedIn:** [Ishani Aggarwal](https://www.linkedin.com/in/ishani-aggarwal-643259320/)
-- 💻 **GitHub:** [IshaniAggarwal](https://github.com/IshaniAggarwal)
+- **LinkedIn:** [Ishani Aggarwal](https://www.linkedin.com/in/ishani-aggarwal-643259320/)
+- **GitHub:** [IshaniAggarwal](https://github.com/IshaniAggarwal)
 
 Feedback and suggestions are always welcome.
 
