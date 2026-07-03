@@ -19,11 +19,12 @@ class RAGChain:
     def __init__(self, vector_db):
 
         self.vector_db = vector_db
-
+        api_key = os.getenv("GOOGLE_API_KEY")
+        print("API key exists:", api_key is not None)
         self.llm = ChatGoogleGenerativeAI(
             model="gemini-2.5-flash",
             temperature=0.2,
-            google_api_key=os.getenv("GOOGLE_API_KEY")
+            google_api_key=api_key
         )
 
         self.prompt = ChatPromptTemplate.from_template(
