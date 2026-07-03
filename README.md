@@ -1,4 +1,4 @@
-# 🤖 Mini RAG Chatbot
+# Mini RAG Chatbot
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![Streamlit](https://img.shields.io/badge/Streamlit-App-red)
@@ -9,7 +9,7 @@
 
 An interactive **Retrieval-Augmented Generation (RAG)** application that enables users to upload PDF documents and ask natural language questions about their content. The application retrieves the most relevant information using semantic search and generates context-aware answers with **Google Gemini**.
 
-## 🌐 Live Demo
+## Live Demo
 
 🔗 **Live Demo:** <https://mini-rag-chatbot.streamlit.app/>
 
@@ -17,22 +17,22 @@ An interactive **Retrieval-Augmented Generation (RAG)** application that enables
 
 ---
 
-## ✨ Features
+## Features
 
-- 📄 Upload and analyze PDF documents
-- 💬 Ask questions in natural language
-- 🤖 AI-powered responses using Google Gemini
-- 🔍 Semantic search with HuggingFace embeddings
-- 🗂️ Choose between **FAISS** and **ChromaDB**
-- ⚙️ Adjustable chunk size and overlap
-- 🎯 Configurable Top-K retrieval
-- 📊 Document statistics dashboard
-- 📚 View retrieved document chunks
-- 📄 Display source page numbers
-- 💬 Conversation history
-- 🧹 Clear chat history
-- 🗑️ Delete vector database
-- 🎨 Interactive Streamlit interface
+- Upload and analyze PDF documents
+- Ask questions in natural language
+- AI-powered responses using Google Gemini
+- Semantic search with HuggingFace embeddings
+- Choose between **FAISS** and **ChromaDB**
+- Adjustable chunk size and overlap
+- Configurable Top-K retrieval
+- Document statistics dashboard
+- View retrieved document chunks
+- Display source page numbers
+- Conversation history
+- Clear chat history
+- Delete vector database
+- Interactive Streamlit interface
 
 ---
 
@@ -51,7 +51,7 @@ An interactive **Retrieval-Augmented Generation (RAG)** application that enables
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```text
           PDF Upload
@@ -81,7 +81,7 @@ An interactive **Retrieval-Augmented Generation (RAG)** application that enables
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
 Mini_RAG_Chatbot/
@@ -114,7 +114,7 @@ Mini_RAG_Chatbot/
 ```
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Clone the repository
 
@@ -165,7 +165,7 @@ streamlit run app.py
 
 ---
 
-## 📖 How to Use
+## How to Use
 
 1. Upload a PDF document.
 2. Select **FAISS** or **ChromaDB**.
@@ -176,7 +176,7 @@ streamlit run app.py
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### Homepage
 
@@ -198,7 +198,7 @@ streamlit run app.py
 
 ---
 
-## 🎯 Skills Demonstrated
+## Skills Demonstrated
 
 - Retrieval-Augmented Generation (RAG)
 - LangChain Framework
@@ -211,7 +211,7 @@ streamlit run app.py
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 * Support multiple PDF uploads
 * OCR for scanned PDFs
@@ -226,8 +226,8 @@ streamlit run app.py
 
 **Ishani Aggarwal**
 
-- 💼 **LinkedIn:** https://www.linkedin.com/in/ishani-aggarwal/
-- 💻 **GitHub:** https://github.com/IshaniAggarwal
+- 💼 **LinkedIn:** [Ishani Aggarwal](https://www.linkedin.com/in/ishani-aggarwal-643259320/)
+- 💻 **GitHub:** [IshaniAggarwal](https://github.com/IshaniAggarwal)
 
-Feedback and suggestions are always welcome!
+Feedback and suggestions are always welcome.
 
